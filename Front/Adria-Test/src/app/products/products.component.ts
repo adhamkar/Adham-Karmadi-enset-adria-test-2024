@@ -14,7 +14,7 @@ export class ProductsComponent implements OnInit {
   };
   constructor(private service: ProdServiceService) { }
   ngOnInit(): void {
-   this.getProducts();
+ //  this.getProducts();
   }
 
 public getProducts(){
@@ -24,7 +24,7 @@ public getProducts(){
       this.products = data;
    },
     (error)=>{
-      console.log(error); 
+      console.log(error);
     }
   );
 }

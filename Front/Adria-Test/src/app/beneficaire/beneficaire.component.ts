@@ -23,7 +23,7 @@ export class BeneficaireComponent implements OnInit{
     this.getBeneficaire();
   }
   public getBeneficaire(){
-    this.service.getProducts().subscribe(
+    this.service.getBeneficaire().subscribe(
       (data)=>{
         console.log(data);
         this.beneficaires = data;

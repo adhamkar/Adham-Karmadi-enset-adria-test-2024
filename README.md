@@ -137,6 +137,18 @@ Application:
 
 ![img_17.png](img_17.png)
 
+# Swagger test:
+
+Get all
+
+![img_32.png](img_32.png)
+
+![img_33.png](img_33.png)
+
+Get By Id
+
+![img_34.png](img_34.png)
+
 ### virement Service
 ### Project Structure
 

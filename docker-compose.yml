@@ -1,0 +1,8 @@
+services:
+ enset-adria-discovery-service:
+  build: ./discovery-service
+  container_name: enset-ebank-discovery-service
+  ports:
+    - '8761:8761'
+  expose:
+    - '8761'

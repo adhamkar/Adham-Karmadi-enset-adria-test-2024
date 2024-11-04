@@ -41,4 +41,22 @@ public class BeneficaireImpl implements BeneficaireService {
         Beneficaire saved=beneficaireRepo.save(beneficaire);
         return beneficaireMapper.convertToDTO(saved);
     }
+
+    @Override
+    public BeneficaireDTO updateBeneficaire(BeneficaireDTO beneficaireDTO) {
+        Beneficaire beneficaire = beneficaireRepo.findById(beneficaireDTO.getId()).orElseThrow();
+
+        beneficaire.setNom(beneficaireDTO.getNom());
+        beneficaire.setPrenom(beneficaireDTO.getPrenom());
+        beneficaire.setType(beneficaireDTO.getType());
+        beneficaire.setRib(beneficaireDTO.getRib());
+        Beneficaire saved=beneficaireRepo.save(beneficaire);
+        return beneficaireMapper.convertToDTO(saved);
+    }
+
+
+    @Override
+    public void deleteBeneficiarie(Long id) {
+        beneficaireRepo.deleteById(id);
+    }
 }

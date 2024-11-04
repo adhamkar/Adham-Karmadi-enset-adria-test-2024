@@ -16,6 +16,7 @@ import org.exemple.beneficiaireservice.enums.Type;
 @NoArgsConstructor
 @Builder
 public class BeneficaireDTO {
+    private Long id;
     private String nom;
     private String prenom;
     private String rib;

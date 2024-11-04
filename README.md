@@ -186,6 +186,17 @@ Application:
 
 ![img_26.png](img_26.png)
 
+# Swagger test:
+
+![img_35.png](img_35.png)
+
+Get all
+
+![img_36.png](img_36.png)
+
+![img_37.png](img_37.png)
+
+Get By Id
 
 ## Documentation Swagger
 ![img_3.png](img_3.png)

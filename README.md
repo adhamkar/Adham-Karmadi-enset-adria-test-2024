@@ -78,34 +78,62 @@ To set up the project locally, follow these steps:
 ### Beneficaire Service
 ### Project Structure
 ![img_8.png](img_8.png)
+
 Entity:
+
 ![img_7.png](img_7.png)
+
 Enums:
+
 ![img_9.png](img_9.png)
+
 Dtos:
+
 ![img_10.png](img_10.png)
+
 Mapper (Modal Mapper):
+
 ![img_11.png](img_11.png)
+
 Mapper config:
+
 ![img_12.png](img_12.png)
+
 Repo:
+
 ![img_13.png](img_13.png)
+
 Service:
+
 ![img_14.png](img_14.png)
+
 Implementation: 
+
 ![img_15.png](img_15.png)
+
 Controller:
+
 ![img_16.png](img_16.png)
+
 Application:
+
 ![img_17.png](img_17.png)
+
 Discovery Service
+
 ![img.png](img.png)
+
 Gateway
+
 ![img_1.png](img_1.png)
+
 ![img_2.png](img_2.png)
+
 ## Documentation Swagger
 ![img_3.png](img_3.png)
+
 ![img_4.png](img_4.png)
 ## FRONT
 ![img_5.png](img_5.png)
+
 ![img_6.png](img_6.png)

@@ -84,6 +84,15 @@ To set up the project locally, follow these steps:
 ![img_1.png](img_1.png)
 
 ![img_2.png](img_2.png)
+
+### Config Service
+
+![img_29.png](img_29.png)
+
+![img_30.png](img_30.png)
+
+![img_31.png](img_31.png)
+
 ### Beneficaire Service
 ### Project Structure
 ![img_8.png](img_8.png)
@@ -128,10 +137,6 @@ Application:
 
 ![img_17.png](img_17.png)
 
-Application.propertities:
-
-![img_28.png](img_28.png)
-
 ### virement Service
 ### Project Structure
 
@@ -169,9 +174,6 @@ Application:
 
 ![img_26.png](img_26.png)
 
-Application.propertities:
-
-![img_27.png](img_27.png)
 
 ## Documentation Swagger
 ![img_3.png](img_3.png)

@@ -7,16 +7,9 @@
 - [Microservices](#microservices)
     - [Beneficiary Service](#beneficiary-service)
     - [Transfer Service](#transfer-service)
-    - [Chatbot Service](#chatbot-service)
     - [Gateway Service](#gateway-service)
     - [Discovery Service](#discovery-service)
     - [Config Service](#config-service)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
 - [Screen Shots](#screen-shots)
 
 ## Introduction
@@ -27,15 +20,12 @@ This project is a proof of concept for a banking transfer management system. It 
     - Spring Boot
     - Spring Cloud
     - OpenFeign
-    - Spring AI (or Python Langchain for Chatbot)
 - **Frontend:**
-    - Angular or React
+    - Angular
 - **Database:**
     - H2
 - **Other Technologies:**
     - Docker
-    - Jenkins
-    - Kubernetes 
 
 ## Architecture
 The application follows a microservices architecture with the following components:
@@ -44,8 +34,6 @@ The application follows a microservices architecture with the following componen
 - Gateway Service
 - Discovery Service
 - Config Service
-
-![Architecture Diagram](link_to_your_architecture_diagram.png)
 
 ## Microservices
 
@@ -63,13 +51,6 @@ The discovery service facilitates service registration and discovery within the 
 
 ### Config Service
 This service manages application configuration settings for the microservices, enabling dynamic configuration updates.
-
-## Installation
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/yourrepository.git
 
 ## Screen Shots
 ### Discovery Service
@@ -249,3 +230,13 @@ Get all
 ### Beneficaire TS
 
 ![img_43.png](img_43.png)
+
+## Docker
+### Docker File 
+![img_58.png](img_58.png)
+
+### Docker Compose
+
+Docker compose file: 
+
+![img_59.png](img_59.png)

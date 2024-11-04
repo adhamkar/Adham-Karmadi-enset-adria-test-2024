@@ -204,15 +204,21 @@ Get all
 # FRONT
 ## Project Structure
 ### Please note that i have service named "Prod Service", it's just a folder that i copied from i template and forgot to changes the name
+
 ![img_40.png](img_40.png)
 
-### App Component
+### Routing
 
+![img_41.png](img_41.png)
 
 ## Home Page
 
 ![img_38.png](img_38.png)
 
-### Benefits
+### Beneficaire
 
 ![img_39.png](img_39.png)
+
+### Service
+
+![img_42.png](img_42.png)

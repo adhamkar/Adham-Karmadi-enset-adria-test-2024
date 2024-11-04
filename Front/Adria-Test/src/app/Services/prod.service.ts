@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ProdServiceService {
   private url = "http://localhost:8888/INVENTORY-SERVICE";
-  private urlTest = "http://localhost:8081/beneficaire-service";
+  private urlTest = "http://localhost:8888/BENEFICIAIRE-SERVICE";
 
   constructor(private http: HttpClient) { }
 

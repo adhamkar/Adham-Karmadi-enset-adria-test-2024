@@ -153,6 +153,24 @@ Get By Id
 
 ![img_34.png](img_34.png)
 
+Post
+
+![img_55.png](img_55.png)
+
+![img_50.png](img_50.png)
+
+Patch
+
+![img_53.png](img_53.png) 
+
+![img_54.png](img_54.png) 
+
+Delete
+
+![img_56.png](img_56.png)
+
+![img_57.png](img_57.png)
+
 ### virement Service
 ### Project Structure
 

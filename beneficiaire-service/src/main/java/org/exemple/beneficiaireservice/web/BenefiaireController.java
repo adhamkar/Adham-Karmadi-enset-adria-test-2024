@@ -60,5 +60,9 @@ public class BenefiaireController {
         // Convert to DTO and return
         return beneficaireMapper.convertToDTO(savedBeneficaire);
     }
+    @DeleteMapping("/beneficaire/{id}")
+    public void deleteBeneficaire(@PathVariable Long id){
+        beneficaireRepo.deleteById(id);
+    }
 
 }

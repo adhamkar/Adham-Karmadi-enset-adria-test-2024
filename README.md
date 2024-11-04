@@ -74,3 +74,6 @@ To set up the project locally, follow these steps:
    git clone https://github.com/yourusername/yourrepository.git
 
 ## Screen Shot
+Discovery Service
+![img.png](img.png)
+Gateway

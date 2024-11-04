@@ -31,11 +31,11 @@ This project is a proof of concept for a banking transfer management system. It 
 - **Frontend:**
     - Angular or React
 - **Database:**
-    - [Specify the database used, e.g., MySQL, PostgreSQL, MongoDB, etc.]
+    - H2
 - **Other Technologies:**
     - Docker
     - Jenkins
-    - Kubernetes (optional for deployment)
+    - Kubernetes 
 
 ## Architecture
 The application follows a microservices architecture with the following components:
@@ -54,9 +54,6 @@ This microservice manages beneficiaries' information, including their name, RIB,
 
 ### Transfer Service
 This service handles bank transfers, allowing users to initiate transactions. It maintains transfer records, including details such as the amount, source RIB, beneficiary ID, and transfer type (normal or instant).
-
-### Chatbot Service
-The AI-powered chatbot assists users in querying banking services and processes inquiries based on provided documents (e.g., PDF). It utilizes a generative AI model (e.g., GPT-4 or LLaMA 3) with a Retrieval-Augmented Generation (RAG) system.
 
 ### Gateway Service
 This service acts as an API gateway, routing requests to the appropriate microservices and handling authentication and authorization.
@@ -80,8 +77,12 @@ To set up the project locally, follow these steps:
 ![img.png](img.png)
 
 ### Gateway
+### Visit other service via Gateway
+### List of beneficaires
 
 ![img_1.png](img_1.png)
+
+### List of Transferes
 
 ![img_2.png](img_2.png)
 

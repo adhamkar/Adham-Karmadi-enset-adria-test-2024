@@ -75,6 +75,15 @@ To set up the project locally, follow these steps:
    git clone https://github.com/yourusername/yourrepository.git
 
 ## Screen Shots
+### Discovery Service
+
+![img.png](img.png)
+
+### Gateway
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
 ### Beneficaire Service
 ### Project Structure
 ![img_8.png](img_8.png)
@@ -119,15 +128,50 @@ Application:
 
 ![img_17.png](img_17.png)
 
-Discovery Service
+Application.propertities:
 
-![img.png](img.png)
+![img_28.png](img_28.png)
 
-Gateway
+### virement Service
+### Project Structure
 
-![img_1.png](img_1.png)
+![img_18.png](img_18.png)
 
-![img_2.png](img_2.png)
+Entity:
+
+![img_19.png](img_19.png)
+
+Enums:
+
+![img_20.png](img_20.png)
+
+Repo:
+
+![img_21.png](img_21.png)
+
+Open Feign:
+
+![img_22.png](img_22.png)
+
+Service:
+
+![img_23.png](img_23.png)
+
+Implementation:
+
+![img_24.png](img_24.png)
+
+Controller:
+
+![img_25.png](img_25.png)
+
+Application:
+
+![img_26.png](img_26.png)
+
+Application.propertities:
+
+![img_27.png](img_27.png)
 
 ## Documentation Swagger
 ![img_3.png](img_3.png)

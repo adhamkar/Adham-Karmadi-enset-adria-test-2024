@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BeneficaireComponent } from './beneficaire/beneficaire.component';
 import {HttpClientModule} from "@angular/common/http";
+import { HeroSectionComponent } from './hero-section/hero-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BeneficaireComponent
+    BeneficaireComponent,
+    HeroSectionComponent
   ],
   imports: [
     BrowserModule,

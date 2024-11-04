@@ -1,17 +1,17 @@
 <!-- component -->
-<nav href="#"
+<!--<nav href="#"
      class="  flex flex-wrap item justify-between w-full px-4 py-5 tracking-wide bg-white shadow-md bg-white bg-opacity-90 md:py-8 md:px-8 lg:px-14">
-  <!-- Left nav -->
+  &lt;!&ndash; Left nav &ndash;&gt;
   <div class="flex items-center">
     <a href="#" class="text-3xl tracking-wide">
       Navbar
     </a>
   </div>
-  <!-- End left nav -->
+  &lt;!&ndash; End left nav &ndash;&gt;
 
-  <!-- Right nav -->
-  <!-- Show menu sm,md -->
-  <!-- Toggle button -->
+  &lt;!&ndash; Right nav &ndash;&gt;
+  &lt;!&ndash; Show menu sm,md &ndash;&gt;
+  &lt;!&ndash; Toggle button &ndash;&gt;
   <div
     x-data="{open : false}"
     class="block text-gray-600 cursor-pointer lg:hidden">
@@ -29,9 +29,9 @@
       </svg>
     </button>
   </div>
-  <!-- End toggle button -->
+  &lt;!&ndash; End toggle button &ndash;&gt;
 
-  <!-- Toggle menu -->
+  &lt;!&ndash; Toggle menu &ndash;&gt;
   <div x-ref="tab"
        :style="handleToggle()"
        class="relative w-full overflow-hidden transition-all duration-700 lg:hidden max-h-0">
@@ -64,10 +64,10 @@
       </p>
     </div>
   </div>
-  <!-- End toggle menu -->
-  <!-- End show menu sm,md -->
+  &lt;!&ndash; End toggle menu &ndash;&gt;
+  &lt;!&ndash; End show menu sm,md &ndash;&gt;
 
-  <!-- Show Menu lg -->
+  &lt;!&ndash; Show Menu lg &ndash;&gt;
   <div class="hidden w-full lg:flex lg:items-center lg:w-auto">
     <div class="items-center flex-1 pt-6 justify-center text-lg text-gray-500 lg:pt-0 list-reset lg:flex">
       <div class="mr-3">
@@ -84,11 +84,11 @@
         </a>
       </div>
 
-      <!-- Dropdown 1 -->
+      &lt;!&ndash; Dropdown 1 &ndash;&gt;
       <div x-data="{ open: false }"
            class="relative inline-block"
            :class="{'text-gray-900': open, 'text-gray-600': !open }">
-        <!-- Dropdown Toggle Button -->
+        &lt;!&ndash; Dropdown Toggle Button &ndash;&gt;
         <button  class="flex items-center p-2 rounded-md">
           <span class="mr-4">Hover Dropdown</span>
           <span :class="open = ! open ? '': '-rotate-180'"
@@ -98,13 +98,13 @@
                                 </svg>
                             </span>
         </button>
-        <!-- End Dropdown Toggle Button -->
+        &lt;!&ndash; End Dropdown Toggle Button &ndash;&gt;
 
-        <!-- Dropdown Menu -->
+        &lt;!&ndash; Dropdown Menu &ndash;&gt;
 
-        <!-- End Dropdown Menu -->
+        &lt;!&ndash; End Dropdown Menu &ndash;&gt;
       </div>
-      <!-- End Dropdown 1 -->
+      &lt;!&ndash; End Dropdown 1 &ndash;&gt;
     </div>
   </div>
   <div class="hidden w-full lg:flex lg:items-center lg:w-auto">
@@ -117,9 +117,80 @@
       </a>
     </div>
   </div>
-  <!-- End show Menu lg -->
-  <!-- End right nav -->
-</nav>
+  &lt;!&ndash; End show Menu lg &ndash;&gt;
+  &lt;!&ndash; End right nav &ndash;&gt;
+</nav>-->
+<header class=" inset-x-0 top-0 z-50 py-6" >
+  <div class="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
+    <nav class="w-full flex justify-between gap-6 relative">
+      <!-- logo -->
+      <div class="min-w-max inline-flex relative">
+        <a href="/" class="relative flex items-center gap-3">
+          <div class="relative w-7 h-7 overflow-hidden flex rounded-xl">
+            <span class="absolute w-4 h-4 -top-1 -right-1 bg-green-500 rounded-md rotate-45"></span>
+            <span class="absolute w-4 h-4 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"></span>
+            <span class="absolute w-4 h-4 -bottom-1 -left-1 bg-blue-600 rounded-md rotate-45"></span>
+            <span
+              class="absolute w-2 h-2 rounded-full bg-gray-900 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+          </div>
+          <div class="inline-flex text-lg font-semibold text-gray-900">
+            Adria
+          </div>
+        </a>
+      </div>
+
+      <div data-nav-overlay aria-hidden="true"
+           class="fixed hidden inset-0 lg:!hidden bg-gray-800/60 bg-opacity-50 backdrop-filter backdrop-blur-xl">
+      </div>
+      <div data-navbar
+           class="flex invisible opacity-0  translate-y-10 overflow-hidden lg:visible lg:opacity-100  lg:-translate-y-0 lg:scale-y-100 duration-300 ease-linear flex-col gap-y-6 gap-x-4 lg:flex-row w-full lg:justify-between lg:items-center absolute lg:relative top-full lg:top-0 bg-white lg:!bg-transparent border-x border-x-gray-100 lg:border-x-0">
+        <ul
+          class="border-t border-gray-100  lg:border-t-0 px-6 lg:px-0 pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-3 text-lg text-gray-700 w-full lg:justify-center lg:items-center">
+          <li>
+            <a  routerLink="/beneficaire"  class="duration-300 font-medium ease-linear hover:text-blue-600 py-3">
+              Beneficaire
+            </a>
+          </li>
+          <li>
+            <a href="#" class="duration-300 font-medium ease-linear hover:text-blue-600 py-3">
+              Virements
+            </a>
+          </li>
+
+        </ul>
+
+        <div
+          class="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-gray-100   lg:border-0 px-6 lg:px-0">
+          <a href="#"
+             class="flex justify-center items-center w-full sm:w-max px-6 h-12 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
+                    after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-[#172554] hover:after:opacity-100 hover:after:scale-[2.5] bg-blue-600 border-transparent hover:border-[#172554]">
+                        <span class="relative z-10 text-white">
+                            Get Started
+                        </span>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="min-w-max flex items-center gap-x-3">
+
+        <button data-toggle-navbar data-is-open="false"
+                class="lg:hidden lg:invisible outline-none w-7 h-auto flex flex-col relative">
+                    <span id="line-1"
+                          class="w-6 h-0.5 rounded-full bg-gray-700 transition-all duration-300 ease-linear"></span>
+          <span id="line-2"
+                class="w-6 origin-center  mt-1 h-0.5 rounded-ful bg-gray-700 transition-all duration-300 ease-linear"></span>
+          <span id="line-3"
+                class="w-6 mt-1 h-0.5 rounded-ful bg-gray-700 transition-all duration-300 ease-linear"></span>
+          <span class="sr-only">togglenav</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- component -->
+
 
 <router-outlet>
 

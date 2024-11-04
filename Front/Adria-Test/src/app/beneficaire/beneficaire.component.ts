@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {BillService} from "../Services/bill.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {ProdServiceService} from "../Services/prod.service";
 

@@ -202,8 +202,14 @@ Get all
 
 ![img_4.png](img_4.png)
 # FRONT
+## Project Structure
+### Please note that i have service named "Prod Service", it's just a folder that i copied from i template and forgot to changes the name
+![img_40.png](img_40.png)
+
 ## Home Page
 
 ![img_38.png](img_38.png)
+
+### Benefits
 
 ![img_39.png](img_39.png)

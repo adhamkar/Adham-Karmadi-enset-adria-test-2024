@@ -196,7 +196,6 @@ Get all
 
 ![img_37.png](img_37.png)
 
-Get By Id
 
 ## Documentation Swagger
 ![img_3.png](img_3.png)

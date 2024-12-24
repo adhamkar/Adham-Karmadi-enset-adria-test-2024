@@ -6,15 +6,23 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProdServiceService {
-  private url = "http://localhost:8888/INVENTORY-SERVICE";
-  private urlTest = "http://localhost:8888/BENEFICIAIRE-SERVICE";
 
+  private urlVir = "http://localhost:8888/VIREMENT-SERVICE";
+  private urlBenif = "http://localhost:8888/BENEFICIAIRE-SERVICE";
+  private url="http://localhost:8081/beneficaire-service"
   constructor(private http: HttpClient) { }
 
-  public getProducts() {
-    return this.http.get(`${this.url}`+"/products");
-  }
+
   getBeneficaire(){
-    return this.http.get(`${this.urlTest}`+"/beneficaires");
+    return this.http.get(`${this.urlBenif}`+"/beneficaires");
+  }
+  deleteBeneficaire(id:number){
+    return this.http.delete(`${this.url}`+"/beneficaire/"+id);
+  }
+  addBenif(benif:any):Observable<any>{
+    return this.http.post<any>(`${this.urlBenif}`+"/beneficaire",benif)
+  }
+  updatebenif(benif:any){
+    return this.http.patch(`${this.urlBenif}`+"/beneficaire",benif)
   }
 }

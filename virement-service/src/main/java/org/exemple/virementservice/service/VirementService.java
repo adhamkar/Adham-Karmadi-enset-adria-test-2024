@@ -7,5 +7,7 @@ import java.util.List;
 public interface VirementService {
     List<Virement> getVirements();
     Virement getVirement(Long id);
+    void deleteVirement(Long id);
+    Virement addVirement(Virement virement);
     //BeneficaireDTO createBeneficaire(BeneficaireDTO beneficaireDTO);
 }

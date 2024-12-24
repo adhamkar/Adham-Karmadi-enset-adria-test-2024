@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/virement-service")
+    @RequestMapping("/virement-service")
 public class VirementController {
 
     @Autowired
@@ -29,6 +29,20 @@ public class VirementController {
         virement.setBeneficiaire(beneficaire);
         return virement;
     }
+    @GetMapping("virement/benificaire-associe/{virementId}")
+    public Beneficaire getBeneficaire(@PathVariable Long virementId){
+        Virement virement=virementService.getVirement(virementId);
+        Beneficaire beneficaire=beneficaireRestClient.getBeneficairesById(virement.getId());
+        return beneficaire;
+    }
+    @DeleteMapping("/{virementId}")
+    public void deleteVirement(@PathVariable Long virementId){
+        virementService.deleteVirement(virementId);
+    }
+@PostMapping("/new")
+    public Virement AddVirement(Virement virement){
+        return virementService.addVirement(virement);
+}
 
  /*   @PostMapping("/beneficaire")
     public BeneficaireDTO savedBeneficaire(@RequestBody BeneficaireDTO beneficaireDTO){

@@ -21,7 +21,7 @@
       </th>
 
       <th scope="col" class="px-6 py-3">
-        <span class="sr-only">Edit</span>
+       Actions
       </th>
     </tr>
     </thead>
@@ -43,8 +43,11 @@
       <td class="px-6 py-4">
         {{b.type}}
       </td>
-      <td class="px-6 py-4 text-right" >
-        <a style="cursor:pointer;" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Details</a>
+      <td class="px-6 py-4 text-right flex justify-between" >
+        <a style="cursor:pointer;" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Update</a>
+        <a style="cursor:pointer;" class="font-medium text-red-600 dark:text-red-500 hover:underline" (click)="deletBenif(b.id)">Delete</a>
+        <a style="cursor:pointer;" class="font-medium text-blue-500 dark:text-blue-500 hover:underline" routerLink="/addBenif" >Add</a>
+
       </td>
 
     </tr>

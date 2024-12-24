@@ -32,4 +32,12 @@ export class BeneficaireComponent implements OnInit{
       }
     );
   }
+  public deletBenif(id:number){
+    this.service.deleteBeneficaire(id).subscribe(
+      (data)=>{
+        console.log("beneficaire deleted")
+        this.getBeneficaire();
+      }
+    )
+  }
 }
